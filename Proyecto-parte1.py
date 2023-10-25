@@ -1,15 +1,18 @@
 import os, readchar
 from readchar import key
 
+# Parte 1
 nombre= input("Introduzca su nombre: ")
 print("!Bienvenido a esta nueva aventura, {}!".format(nombre))
 
+#Parte 2
 while True:
     tecla_1 = readchar.readkey()
     if tecla_1 == key.UP:
         break
     print(tecla_1)
     
+#Parte 3
 def borrar_terminal():
     numveces =0
     print("Borrar terminal")
