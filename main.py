@@ -1,7 +1,7 @@
 from juego_archivo import JuegoArchivo
 
 if __name__ == "__main__":
-    mapa = "mapas/"
+    mapa = "Pryecto-Labe/mapas/"
 
 
     nombre= input("Introduzca su nombre: ")
